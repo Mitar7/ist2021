@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xsl:output omit-xml-declaration="yes" indent="yes"/>
+
+<xs:element name="proizvodi">
+  <xs:element name="proizvod">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="kategorija">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="laptopovi"/>
+              <xs:enumeration value="monitori"/>
+              <xs:enumeration value="stolice"/>
+            </xs:restriction>
+          </xs:simpleType>
+       </xs:element>
+
+        <xs:element name="cena" type="xs:string">
+         <xs:attribute name="valuta" type="xs:string" fixed="dinar"/>
+        </xs:element>
+
+
+        <xs:element name="oznaka" type="xs:string">
+        <xs:element name="oznaka" type="xs:string">
+        <xs:element name="oznaka" type="xs:string">
+        <xs:element name="oznaka" type="xs:string">
+        <xs:element name="oznaka" type="xs:string">
+        
+        <xs:element name="tekst" type="xs:string" minLength="10" maxLength="180" />
+
+        <xs:element name="akcija" type="xs:string" >
+         <xs:attribute name="cena" type="xs:string" />
+         <xs:attribute name="datum_isteka" type="xs:date"/>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:element>
+
+</xs:schema>
