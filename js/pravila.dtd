@@ -1,0 +1,8 @@
+<!DOCTYPE prozivodi [
+<!ELEMENT prozivod (kategorija,cena,tekst,oznaka,akcija)>
+<!ELEMENT kategorija (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT tekst (#PCDATA)>
+<!ELEMENT oznaka (#PCDATA)>
+<!ELEMENT akcija (#PCDATA)>
+]>
