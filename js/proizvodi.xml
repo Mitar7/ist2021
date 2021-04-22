@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proizvodi SYSTEM "pravila.dtd">
+	<proizvodi xsi:schemaLocation="schema.xsd">
+				<proizvod id="1">
+			<kategorija>laptopovi</kategorija>
+			<cena valuta="dinar">20000</cena>
+			<tekst>Test test test test test</tekst>
+			<oznaka>test</oznaka>
+			<akcija cena="18000" datum_isteka="20/12/2021">10</akcija>
+		</proizvod>
+
+		<proizvod id="2">
+			<kategorija>stolice</kategorija>
+			<cena valuta="dinar">20000</cena>
+			<tekst>Test test test test test</tekst>
+			<oznaka>test</oznaka>
+			<akcija cena="18000" datum_isteka="20/12/2021">10</akcija>
+		</proizvod>
+
+		<proizvod id="3">
+			<kategorija>monitori</kategorija>
+			<cena valuta="dinar">20000</cena>
+			<tekst>Test test test test test</tekst>
+			<oznaka>test</oznaka>
+			<akcija cena="18000" datum_isteka="20/12/2021">10</akcija>
+		</proizvod>
+	</proizvodi>
